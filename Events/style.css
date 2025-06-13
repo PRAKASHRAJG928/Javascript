@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+#toogle{
+    border: 2px solid red;
+}
+#data{
+    height: 20px;
+    width: 70px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}

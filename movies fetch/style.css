@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+    text-align: center;
+    background-color: rgb(185, 212, 224);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+#parent{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    margin: 0px auto;
+    justify-content: center;
+    flex-wrap:wrap ;
+}
+#head{
+
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(118, 193, 196);
+    text-shadow:2px 1px 2px  rgb(42, 42, 42) ;
+
+
+}
+
+#searchInput{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 193, 196);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    box-shadow: 1px 1px 10px 1px rgba(59, 57, 57, 0.623);
+   
+}
+#searchButton{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(118, 193, 196);
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    outline: none;
+    box-shadow: 1px 1px 10px 1px rgba(59, 57, 57, 0.623);
+    background-color: rgb(118, 193, 196);
+    color:white;
+    cursor: pointer;    
+    position: relative;
+}
+#container{
+    background-color: rgb(236, 238, 250);
+
+    width: 300px;
+    height: 300px;
+    /* border: 1px solid red; */
+    padding: 30px;
+    margin: 70px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px rgba(59, 57, 57, 0.623);
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#container:hover{
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+    width: 310px;
+    height: 310px;
+    transition: 0.5s;
+    
+
+}
+
+.movie_name{
+    font-size: 20px;
+    font-weight: bold;
+    /* color:white; */
+    
+}
+.image{
+    width: 100%;
+    height: 85%;
+    margin: 5px;
+    border-radius: 5px;
+}
+.year{
+    /* font-size:20px ; */
+    font-weight: bold;
+
+}

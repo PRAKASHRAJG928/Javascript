@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    background-color: lightblue;
+
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+#left_button{
+    width: 100px;
+    height: 100px;
+    margin-top: 200px;
+    margin-left: 40px;
+    font-weight: bolder;
+    border-radius: 10px;
+    
+  
+}
+#right_button{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border-radius: 10px;
+    
+    margin-top: 200px;
+    margin-right: 40px;
+    font-weight: bolder;
+
+}
+#image{
+    width:80% ;
+    height: 500px;
+}
